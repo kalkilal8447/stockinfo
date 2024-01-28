@@ -11,7 +11,7 @@ source.include_exts = py,png,jpg,kv,atlas
 source.include_exts_deps = ttf,otf
 
 # (list) Application requirements
-requirements = python3,kivy==2.1.0,asyncio,alpha_vantage,yfinance,kivymd,pillow,kivy_garden
+requirements = freetype, hostpython3, jpeg, libffi, openssl, png, sdl2_image, sdl2_mixer, sdl2_ttf==2.0.15, sqlite3, python3, sdl2, pandas, setuptools, pillow, six, pyjnius, android, kivy==2.1.0, kivymd==1.1.1, kivy_garden, requests, chardet, urllib3, idna, certifi, yfinance, asyncio,
 
 # (list) Application source files
 source.include_exts = py,png,jpg,kv,atlas
